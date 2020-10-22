@@ -32,4 +32,3 @@ def tax_year_brackets(tax_year):
         return jsonify({'errors': format_error(str(e))}), 400
 
     return jsonify(resp_dict)
-
