@@ -1,11 +1,6 @@
 - name: Build and push Docker images
-  # You may pin to the exact commit or the version.
-  # uses: docker/build-push-action@ab83648e2e224cfeeab899e23b639660765c3a89
   uses: docker/build-push-action@v1.1.1
   with:
-    # Username used to log in to a Docker registry. If not set then no login will occur
     username: jweatherby
-    # Password or personal access token used to log in to a Docker registry. If not set then no login will occur
     password: 7b14a1bc-755d-4534-8f7d-26e5c9732e49
-    # Server address of Docker registry. If not set then will default to Docker Hub
     repository: points-api-server
