@@ -15,6 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Build the Docker image
-      run: docker build . -t worst-api-server:latest
+      run: docker build . -t jweatherby/worst-api-server:latest
     - name: Publish the docker image
-      run: docker push
+      run: docker push jweatherby/worst-api-server:latest
