@@ -2,11 +2,13 @@ import os
 import json
 from flask import jsonify
 
+
 brackets_dir = os.path.join(
     os.path.dirname(__file__),
     '..',
     'tax-brackets',
 )
+
 
 def _open_config(filename):
 

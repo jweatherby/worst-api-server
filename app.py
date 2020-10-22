@@ -8,6 +8,13 @@ from api.error_handlers import format_error
 app = Flask(__name__)
 
 
+@app.errorhandler(404)
+def not_found_handler(e):
+    return jsonify({
+        'errors': format_error('That url was not found', code='NOT_FOUND')
+    }), 404
+
+
 
 @app.route('/')
 def instructions():
