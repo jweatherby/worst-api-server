@@ -1,6 +1,0 @@
-- name: Build and push Docker images
-  uses: docker/build-push-action@v1.1.1
-  with:
-    username: jweatherby
-    password: 7b14a1bc-755d-4534-8f7d-26e5c9732e49
-    repository: points-api-server
