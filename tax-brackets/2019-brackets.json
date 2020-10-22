@@ -1,0 +1,22 @@
+[
+    {
+        "minSalary": 0,
+        "taxRate": 0.15
+    },
+    {
+        "minSalary": 47630,
+        "taxRate": 0.205
+    },
+    {
+        "minSalary": 95259,
+        "taxRate": 0.26
+    },
+    {
+        "minSalary": 147667,
+        "taxRate": 0.29
+    },
+    {
+        "minSalary": 210371,
+        "taxRate": 0.33
+    }
+]
