@@ -40,10 +40,7 @@ def naptime():
 
 @app.route('/tax-brackets')
 def default_brackets():
-    try:
-        tax_brackets = get_tax_brackets()
-    except Exception as e:
-        return jsonify({'errors': format_error(str(e))}), 400
+    tax_brackets = get_tax_brackets()
 
     return jsonify({'tax_brackets': tax_brackets})
 
