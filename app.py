@@ -33,11 +33,11 @@ def instructions():
 @app.route('/tax-brackets')
 def default_brackets():
     try:
-        resp_dict = get_tax_brackets()
+        tax_brackets = get_tax_brackets()
     except Exception as e:
         return jsonify({'errors': format_error(str(e))}), 400
 
-    return jsonify(resp_dict)
+    return jsonify({'tax_brackets': tax_brackets})
 
 
 @app.route('/tax-brackets/<tax_year>')
@@ -51,4 +51,4 @@ def tax_year_brackets(tax_year):
 
     tax_brackets = get_tax_brackets(tax_year)
 
-    return jsonify(tax_brackets)
+    return jsonify({'tax_brackets': tax_brackets})
