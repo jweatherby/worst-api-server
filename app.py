@@ -1,5 +1,6 @@
 import random
 from flask import Flask, jsonify
+from flask_cors import CORS
 from api.handlers import (
     get_tax_brackets
 )
@@ -7,7 +8,7 @@ from api.error_handlers import format_error
 
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.errorhandler(404)
 def not_found_handler(e):
