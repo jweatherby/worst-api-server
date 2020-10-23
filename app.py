@@ -1,4 +1,5 @@
 import random
+import time
 from flask import Flask, jsonify
 from flask_cors import CORS
 from api.handlers import (
@@ -9,6 +10,7 @@ from api.error_handlers import format_error
 
 app = Flask(__name__)
 CORS(app)
+
 
 @app.errorhandler(404)
 def not_found_handler(e):
@@ -31,6 +33,11 @@ def instructions():
     return 'instructions tbd'
 
 
+def naptime():
+    sleep_time = random.randint(0, 5)
+    time.sleep(sleep_time)
+
+
 @app.route('/tax-brackets')
 def default_brackets():
     try:
@@ -44,6 +51,7 @@ def default_brackets():
 @app.route('/tax-brackets/<tax_year>')
 def tax_year_brackets(tax_year):
 
+    naptime()
     # be evil
     roulette = random.randint(1, 3)
     print(f'Database roulette {roulette}')
