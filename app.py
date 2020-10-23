@@ -45,7 +45,7 @@ def tax_year_brackets(tax_year):
 
     # be evil
     # import pdb; pdb.set_trace()
-    roulette = random.randint(0, 4)
+    roulette = random.randint(1, 3)
     print(f'Roulette {roulette} (3 is bad today)')
     if roulette == 3:
         raise Exception("Database not found!")
