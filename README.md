@@ -4,7 +4,7 @@ For the Points developer take-home assignment, the following task is required. Y
 
 ## Instructions
 
-* Download and run this server (see Getting Started)
+* Download and run this server (see [Getting Started](#getting-started))
 * Build an application / tool in React or Python with the following criteria:
     * Fetches the tax rates from this API server
     * Takes a yearly salary as input
@@ -44,10 +44,12 @@ Clone or download this repository and then submit your solution to your contact 
 
 Please *do not fork or submit pull requests* to this repository.
 
+Please timebox your solution to one day total.
+
 * Implement your solution using JavaScript or Python.
 * Include comments where you feel that they would be helpful.
 * Include a README with instructions on how setup, run, and test the application.
-Include unit tests.
+* Include unit tests.
 
 **If using JavaScript**
 
