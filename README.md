@@ -51,8 +51,8 @@ Include unit tests.
 
 **If using JavaScript**
 
-Create a simple, yet visually appealing and responsive design.
-Target the latest stable version of Google Chrome.
+* Create a simple, yet visually appealing and responsive design.
+* Target the latest stable version of Google Chrome.
 
 **If using Python**
 
