@@ -6,11 +6,13 @@ For the Points developer take-home assignment, the following task is required. Y
 
 * Download and run this server (see Getting Started)
 * Build an application / tool in React or Python with the following criteria:
-* * Fetches the tax rates from this API server
-* * Take a yearly salary as input
-* * Calculates and displays the total taxes owed for the salary
-* * Displays the amount of taxes owed per band
-* * Displays the effective rate
+    * Fetches the tax rates from this API server
+    * Take a yearly salary as input
+    * Calculates and displays the total taxes owed for the salary
+    * Displays the amount of taxes owed per band
+    * Displays the effective rate
+
+There are different levels to this assignment, level 1 being the easiest, level 2 having some gotchas, etc. If you complete a level with ease, feel free to jump to the next one. Please timebox your solution to one day total.
 
 ### Level 1
 
