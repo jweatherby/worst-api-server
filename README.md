@@ -29,7 +29,9 @@ _Warning: this endpoint has gotchas_
 
 ## Getting started
 
-> docker pull jweatherby/worst-api-server
-> docker run --init -p 5000:5000 -it jweatherby/worst-api-server
+```bash
+docker pull jweatherby/worst-api-server
+docker run --init -p 5000:5000 -it jweatherby/worst-api-server
+```
 
-Navigate to http://localhost:5000. You should see a brief set of instructions.
+Navigate to http://localhost:5000. You should see a brief set of instructions. From there you'll be able to query the above endpoints and do your assignments. If you have any problems, email the Team Lead or Engineering Hiring Manager for assistance.
