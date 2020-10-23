@@ -1,6 +1,6 @@
 import random
 import time
-from flask import Flask, jsonify
+from flask import Flask, jsonify, render_template
 from flask_cors import CORS
 from api.handlers import (
     get_tax_brackets
@@ -21,6 +21,7 @@ def not_found_handler(e):
         )
     }), 404
 
+
 @app.errorhandler(Exception)
 def exception_handler(e):
     return jsonify({
@@ -30,7 +31,7 @@ def exception_handler(e):
 
 @app.route('/')
 def instructions():
-    return 'instructions tbd'
+    return render_template('instructions.html')
 
 
 def naptime():
@@ -49,6 +50,7 @@ def default_brackets():
 def tax_year_brackets(tax_year):
 
     naptime()
+
     # be evil
     roulette = random.randint(1, 3)
     print(f'Database roulette {roulette}')

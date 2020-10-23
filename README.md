@@ -7,7 +7,7 @@ For the Points developer take-home assignment, the following task is required. Y
 * Download and run this server (see Getting Started)
 * Build an application / tool in React or Python with the following criteria:
     * Fetches the tax rates from this API server
-    * Take a yearly salary as input
+    * Takes a yearly salary as input
     * Calculates and displays the total taxes owed for the salary
     * Displays the amount of taxes owed per band
     * Displays the effective rate
