@@ -1,6 +1,6 @@
 # Worst API Server
 
-For the Points developer take-home assignment, the following task is required. You are to build a tax calculator against this API. This server is pretty simple, only returning the tax rates for a given year. You are to calculate the amount of taxes owed by inputting a yearly salary, then displaying the different rates, the total amount owed and the effective tax rates.
+For the Points developer take-home assignment, the following task is required. You are to build a tax calculator against this API. The purpose is to build an income tax calculator to help illustrate how marginal taxes work. This server is pretty simple, only returning the tax rates for a given year. You are to calculate the amount of taxes owed by inputting a yearly salary, then displaying the different rates, the total amount owed and the effective tax rates.
 
 ## Instructions
 
@@ -37,3 +37,23 @@ docker run --init -p 5000:5000 -it jweatherby/worst-api-server
 ```
 
 Navigate to http://localhost:5000. You should see a brief set of instructions. From there you'll be able to query the above endpoints and do your assignments. If you have any problems, email the Team Lead or Engineering Hiring Manager for assistance.
+
+## Submission Instructions
+
+Clone or download this repository and then submit your solution to your contact at Points.
+
+Please *do not fork or submit pull requests* to this repository.
+
+* Implement your solution using JavaScript or Python.
+* Include comments where you feel that they would be helpful.
+* Include a README with instructions on how setup, run, and test the application.
+Include unit tests.
+
+**If using JavaScript**
+
+Create a simple, yet visually appealing and responsive design.
+Target the latest stable version of Google Chrome.
+
+**If using Python**
+
+* Implement a simple yet intuitive command line interface.
